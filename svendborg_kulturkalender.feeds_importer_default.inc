@@ -92,7 +92,7 @@ function svendborg_kulturkalender_feeds_importer_default() {
           0 => array(
             'source' => 'xpathparser:7',
             'target' => 'guid',
-            'unique' => FALSE,
+            'unique' => 1,
           ),
           1 => array(
             'source' => 'xpathparser:0',
